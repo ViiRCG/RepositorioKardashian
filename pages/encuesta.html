@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/encuesta.css">
+    <title>Encuesta</title>
+</head>
+
+<body>
+    <!-- Los estilos de esta página se encuentran en style.css y encuesta.css -->
+    <div class="container">
+        <!-- Menú del header que comparten todas las páginas excepto la de inicio. -->
+        <header class="header">
+            <h1 class="titulo" id="encuesta">ENCUESTA</h1>
+            <div class="menu">
+                <nav class="menu_item">
+                    <a href="../index.html" class="enlace">Inicio</a>
+                </nav>
+                <nav class="menu_item">
+                    <a href="./familia.html" class="enlace">Familia</a>
+                </nav>
+                <nav class="menu_item">
+                    <a href="./negocios.html" class="enlace">Negocios</a>
+                </nav>
+                <nav class="menu_item">
+                    <a href="./porque.html" class="enlace"> ¿Por qué son famosas?</a>
+                </nav>
+                <nav class="menu_item">
+                    <a href="./serie.html" class="enlace"> Serie</a>
+                </nav>
+                <nav class="menu_item">
+                    <a href="./encuesta.html" class="enlace"> Encuesta</a>
+                </nav>
+            </div>
+        </header>
+        <!-- El main va a contener un formulario de recopilación de datos para el registro y otro formulario con el cuestionario de conocimientos. -->
+        <main class="main">
+            <div class="contain_formulario">
+                <h2>¡Demuestra lo que sabes! Regístrate antes de empezar el test.</h2>
+                <form action="" method="" class="form">
+                    <fieldset>
+                        <legend class="legend">Registro</legend>
+                        <div class="linea">
+                            <label>Nombre: </label>
+                            <input type="text" name="nombre" id="nombre" placeholder="Vanesa" required>
+                        </div>
+                        <div class="linea">
+                            <label for="apellido1">Apellidos: </label>
+
+                            <input type="text" name="apellidos" id="apellidos" placeholder="González Moreno" required>
+                        </div>
+                        <div class="linea">
+                            <label for="nacimiento">Fecha de nacimiento: </label>
+                            <input type="date" name="nacimiento" id="nacimiento" required>
+                        </div>
+                        <div class="linea">
+                            <label for="sexo">Sexo: </label>
+                            <input type="radio" name="sexo" value="masculino">Masculino
+                            <input type="radio" name="sexo" value="femenino">Femenino
+
+                        </div>
+                        <div class="linea">
+                            <label for="tlf">Teléfono: </label>
+                            <input type="text" name="tlf" id="tlf" placeholder="611222333" required>
+
+                        </div>
+                        <div class="linea">
+                            <label for="correo">Correo electrónico: </label>
+                            <input type="email" placeholder="correo@correo.com" required>
+
+                        </div>
+
+                        <div class="linea">
+                            <label for="direccion">Dirección: </label>
+                            <input type="text" name="direccion" id="direccion" class="dire"
+                                placeholder="Calle Valkiria, 24" required>
+                            <label for="localidad">Localidad</label>
+                            <input type="text" name="localidad" id="localidad" placeholder="Leganés" required>
+                            <label for="cp">CP</label>
+                            <input type="text" name="cp" id="cp" placeholder="28925" required>
+                            <div class="linea">
+
+                                <label for="provincia">Provincia</label>
+                                <select name="provincia" id="provincia" required>
+                                    <option value=""></option>
+                                    <option value="a coruña">A Coruña</option>
+                                    <option value="alava">Álava</option>
+                                    <option value="albacete">Albacete</option>
+                                    <option value="alicante">Alicante</option>
+                                    <option value="almeria">Almería</option>
+                                    <option value="asturias">Asturias</option>
+                                    <option value="avila">Ávila</option>
+                                    <option value="badajoz">Badajoz</option>
+                                    <option value="baleares">Baleares</option>
+                                    <option value="barcelona">Barcelona</option>
+                                    <option value="burgos">Burgos</option>
+                                    <option value="caceres">Cáceres</option>
+                                    <option value="cadiz">Cádiz</option>
+                                    <option value="cantabria">Cantabria</option>
+                                    <option value="castellon">Castellón</option>
+                                    <option value="ceuta">Ceuta</option>
+                                    <option value="ciudadreal">Ciudad Real</option>
+                                    <option value="cordoba">Córdoba</option>
+                                    <option value="cuenca">Cuenca</option>
+                                    <option value="girona">Girona</option>
+                                    <option value="granada">Granada</option>
+                                    <option value="guadalajara">Guadalajara</option>
+                                    <option value="gipuzcoa">Gipuzcoa</option>
+                                    <option value="huelva">Huelva</option>
+                                    <option value="huesca">Huesca</option>
+                                    <option value="jaen">Jaén</option>
+                                    <option value="larioja">La Rioja</option>
+                                    <option value="laspalmas">Las Palmas</option>
+                                    <option value="leon">León</option>
+                                    <option value="lerida">Lérida</option>
+                                    <option value="lugo">Lugo</option>
+                                    <option value="madrid" selected>Madrid</option>
+                                    <option value="malaga">Málaga</option>
+                                    <option value="melilla">Melilla</option>
+                                    <option value="murcia">Murcia</option>
+                                    <option value="navarra">Navarra</option>
+                                    <option value="ourense">Ourense</option>
+                                    <option value="palencia">Palencia</option>
+                                    <option value="pontevedra">Pontevedra</option>
+                                    <option value="salamanca">Salamanca</option>
+                                    <option value="segovia">Segovia</option>
+                                    <option value="sevilla">Sevilla</option>
+                                    <option value="soria">Soria</option>
+                                    <option value="tarragona">Tarragona</option>
+                                    <option value="santacruz">Santa Cruz de Tenerife</option>
+                                    <option value="teruel">Teruel</option>
+                                    <option value="toledo">Toledo</option>
+                                    <option value="valencia">Valencia</option>
+                                    <option value="valladolid">Valladolid</option>
+                                    <option value="vizcaya">Vizcaya</option>
+                                    <option value="zamora">Zamora</option>
+                                    <option value="zaragoza">Zaragoza</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="linea">
+                            <label for="foto">Adjunta una foto de perfil: </label>
+                            <input type="file" required>
+
+                        </div>
+                        <div class="registro">
+                            <div class="linea">
+                                <label for="foto">Nombre de usuario: </label>
+                                <input type="text" required>
+
+                            </div>
+                            <div class="linea">
+                                <label for="foto">Contraseña: </label>
+                                <input type="password" required>
+
+                            </div>
+                            <div class="linea">
+                                <label for="foto">Repetir contraseña: </label>
+                                <input type="password" required>
+
+                            </div>
+                        </div>
+                        <input type="submit" value="Enviar datos personales" class="boton">
+                        <input type="reset" value="Borrar todo" class="boton">
+
+                    </fieldset>
+                </form>
+                <form action="" method="" class="form">
+                    <fieldset>
+                        <legend class="legend">¡Completa el test sin buscar las respuestas en las páginas!</legend>
+                        <div class="pregunta">
+                            <label for="primera" class="question">1. ¿Cuántos hijos tuvo Robert Kardashian?</label>
+                            <div class="respuestas">
+                                <p><input type="radio" name="primera" value="10"> 10</p>
+                                <p><input type="radio" name="primera" value="5"> 5</p>
+                                <p><input type="radio" name="primera" value="2"> 2</p>
+                                <p><input type="radio" name="primera" value="8"> 8</p>
+                            </div>
+                        </div>
+                        <div class="pregunta">
+                            <label for="segunda" class="question">2. ¿Cuál es modelo de Victoria Secret?</label>
+                            <div class="respuestas">
+                                <p><input type="radio" name="segunda" value="kylie"> Kylie Jenner</p>
+                                <p><input type="radio" name="segunda" value="kourtney"> Kourtney Kardashian</p>
+                                <p><input type="radio" name="segunda" value="kim"> Kim Kardashian</p>
+                                <p><input type="radio" name="segunda" value="kendall"> Kendall Jenner</p>
+                            </div>
+                        </div>
+                        <div class="pregunta">
+                            <label for="tercera" class="question">3. ¿Cuántas temporadas tiene la serie?</label>
+                            <div class="respuestas">
+                                <p>Elige un número del 1 al 30:</p>
+                                <input type="number" min="1" max="30" value="15">
+                            </div>
+                        </div>
+                        <div class="pregunta">
+                            <label for="cuarta" class="question">4. ¿Cómo se hicieron famosas?</label>
+                            <div class="respuestas">
+                                <p><input type="radio" name="cuarta" value="video sexual"> Con un video sexual</p>
+                                <p><input type="radio" name="cuarta" value="negocios"> Con sus negocios</p>
+                                <p><input type="radio" name="cuarta" value="hermana pequeñas"> Con el éxito de las
+                                    hermanas pequeñas</p>
+                                <p><input type="radio" name="cuarta" value="padre"> Por su padre</p>
+                            </div>
+                        </div>
+                        <div class="pregunta">
+                            <label for="quinta" class="question">5. ¿Cuáles de las siguientes tienen hijos?</label>
+                            <div class="respuestas">
+                                <p><input type="checkbox" name="quintakim" value="kim"> Kim</p>
+                                <p><input type="checkbox" name="quintakendall" value="kendall"> Kendall</p>
+                                <p><input type="checkbox" name="quintakylie" value="kylie"> Kylie</p>
+                                <p><input type="checkbox" name="quintaklhoe" value="klhoe"> Klhoé</p>
+                            </div>
+                        </div>
+                        <div class="pregunta">
+                            <label for="sexta" class="question">6. ¿A qué se dedicaba Robert Kardashian?</label>
+                            <div class="respuestas">
+                                <p><input type="radio" name="sexta" value="presentador"> Presentador de TV</p>
+                                <p><input type="radio" name="sexta" value="abogado"> Abogado</p>
+                                <p><input type="radio" name="sexta" value="diseñador"> Diseñador de moda</p>
+                                <p><input type="radio" name="sexta" value="modelo"> Modelo</p>
+                            </div>
+                        </div>
+                        <div class="pregunta">
+                            <label for="septima" class="question">7. ¿Quién se ha cambiado de sexo?</label>
+                            <div class="respuestas">
+                                <p><input type="radio" name="septima" value="bruce"> Bruce</p>
+                                <p><input type="radio" name="septima" value="robert"> Robert</p>
+                                <p><input type="radio" name="septima" value="kris"> Kris</p>
+                                <p><input type="radio" name="septima" value="kourtney"> Kourtney</p>
+                            </div>
+                        </div>
+                        <div class="pregunta">
+                            <label for="octava" class="question">8. ¿La serie ya ha concluido?</label>
+                            <div class="respuestas">
+                                <p><input type="radio" name="octava" value="si"> Sí</p>
+                                <p><input type="radio" name="octava" value="no"> No</p>
+                            </div>
+                        </div>
+                        <input type="submit" value="Enviar respuestas" class="boton">
+                        <input type="reset" value="Borrar selección" class="boton">
+                    </fieldset>
+                </form>
+            </div>
+
+
+        </main>
+        <footer class="footer">
+            <div class="footer_div">
+                <div class="footer_tit">
+                    <p class="tit_footer">
+                        Datos de contacto
+                    </p>
+                </div>
+                <div class="texto_footer">
+                    <span>Correo electrónico: </span>
+                    <a href="mail to:info-kardashian@kuwtk.com" class="correo">info-kardashian@kuwtk.com</a>
+                    <p> Teléfonos: +34 91 528 45 86 - +34 632 220 142</p>
+                    <p>Dirección: Calle Trafalgar, 56, 28070, Madrid</p>
+                </div>
+
+            </div>
+            <div class="footer_div">
+                <div class="footer_tit">
+                    <p class="tit_footer">
+                        Redes sociales
+                    </p>
+                </div>
+                <div class="texto_footer">
+                    <div class="contain_logo">
+                        <a href="https://twitter.com/laskardashianes"><img src="../assets/images/twitter.png"
+                                class="logo"></a>
+                    </div>
+                    <div class="contain_logo">
+                        <a href="https://www.facebook.com/kuwtk/"><img src="../assets/images/facebook.png"
+                                class="logo"></a>
+                    </div>
+                    <div class="contain_logo">
+                        <a href="https://www.instagram.com/kuwtk/?hl=es"><img src="../assets/images/insta.png"
+                                class="logo"></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer_div">
+                <div class="footer_tit">
+                    <p class="tit_footer">
+                        Atajos
+                    </p>
+                </div>
+                <nav class="texto_footer">
+                    <div class="contain_enlace">
+                        <a href="#encuesta" class="enlace_footer">¡Arriba!</a>
+                    </div>
+                    <div class="contain_enlace">
+                        <a href="./familia.html" class="enlace_footer">Familia</a>
+                    </div>
+                    <div class="contain_enlace">
+                        <a href="./negocios.html" class="enlace_footer">Negocios</a>
+                    </div>
+                    <div class="contain_enlace">
+                        <a href="./porque.html" class="enlace_footer">¿Por qué son famosas?</a>
+                    </div>
+                    <div class="contain_enlace">
+                        <a href="./serie.html" class="enlace_footer">Serie TV</a>
+                    </div>
+                    <div class="contain_enlace">
+                        <a href="./encuesta.html" class="enlace_footer">Encuesta</a>
+                    </div>
+                </nav>
+            </div>
+        </footer>
+</body>
+
+</html>

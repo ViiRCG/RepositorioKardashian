@@ -1,0 +1,59 @@
+/* Capa contenedora de cada formulario, incluido el título */
+.contain_formulario{
+    width: 70%;
+    margin: 10px auto;
+}
+/* Capa contenedora de los formularios solos */
+.form{
+    width: 98%;
+    margin: 20px auto;
+}
+/* Capa de cada elemento a completar */
+.linea{
+    margin:12px;
+}
+/* Capa para determinar el tamaño de la línea de texto de la dirección */
+.dire{
+    width: 270px;
+}
+/* Estilos para los botones de enviar y borrar */
+.boton{
+    width: 200px;
+    height: 30px;
+    margin: 10px  10px 0px;
+}
+/* Capa contenedora de la pregunta completa de la encuesta, incluidas las opciones de respuesta */
+.pregunta{
+    background-color: rgba(0, 0, 0, 0.158);
+    width: 22%;
+    margin:5px;
+    padding:5px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 5px;
+}
+/* Pregunta del cuestionario */
+.question{
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* Capa contenedora de las respuestas */
+.respuestas{
+    width: 90%;
+    height: 150px;
+    padding: 10px;
+}
+/* Estilos para el texto que aparece en el legend */
+.legend{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+/* Capa contenedora de las líneas de nombre de usuario,contraseña y repetir contraseña */
+.registro{
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.158);
+    width: 50%;
+    margin: 10px auto;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

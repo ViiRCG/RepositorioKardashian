@@ -1,0 +1,207 @@
+/* El fondo de este body será el mismo para todas las páginas excepto la de inicio */
+body{
+    background-color: whitesmoke;
+    background-image: url(../assets/images/fondo-gris-claro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Capa contenedora del header, main y footer */
+.container{
+    background-image: url(../assets/images/fondo_negro_familia.jpg);
+    background-color: black;
+    width: 1300px;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px grey;
+}
+/* Fuente de texto para toda la página */
+@font-face {
+    font-family: Roboto-Light;
+    src: url(../assets/fonts/Roboto-Light.ttf);
+}
+/* Capa del header */
+.header{
+    box-shadow: 2px 2px grey;
+    background-color: whitesmoke;
+    font-family: Roboto-Light;
+    font-variant: small-caps;
+    width: 99%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 20px;
+}
+/* Título principal de la página */
+.titulo{
+    padding-top: 8px;
+    text-decoration: underline;
+    margin: 10px;
+}
+/* Capa contenedora del enlace del menu */
+.menu_item{
+    display: inline-block;
+    margin: 10px;
+    border-radius: 8px;
+}
+/* Enlace del menu */
+.enlace{
+    color: rgb(216, 216, 216);
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    background-color: rgb(66, 65, 65);
+    text-decoration: none;
+    border-radius: 8px;
+}
+/* Para que cambie de color cuando paso el ratón por los botones del menú */
+.enlace:hover{
+    color: rgb(66, 65, 65);
+    background-color: rgb(216, 216, 216);
+
+}
+/* capa del main */
+.main{
+    box-shadow: 2px 2px grey;
+    background-color: whitesmoke;
+    font-family: Roboto-Light;
+    width: 97%;
+    margin: 0px auto;
+    padding: 5px 0px;
+    border-radius: 20px;
+}
+/* Capa del texto introductorio */
+.intro{
+    background-color: rgba(0, 0, 0, 0.226);
+    text-align: justify;
+    width: 99.2%;
+    margin: 20px 0px;
+    padding: 5px;
+}
+/* Capa para las distintas secciones: Kardashian y Jenner */
+.section{
+    width: 45%;
+    margin-left: 30px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 20px;
+}
+/* Título de las secciones */
+.titulo2{
+    width: 98%;
+    background-color: rgba(0, 0, 0, 0.192);
+    border-radius: 8px;
+    padding: 1px;
+    text-align: center;
+    font-variant: small-caps;
+    text-decoration: underline;
+    display: inline-block;
+}
+/* Main de las secciones, que contiene la imagen y el texto biográfico */
+.section_main{
+    width: 95%;
+    margin:5px;
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+}
+/* Capa contenedora de la imagen de los apartados de cada sección */
+.contain_img{
+    width: 32%;
+    height: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+/* imagen en sí que se ajusta a la capa contain_img */
+.img{
+    width: 100%;
+    height: 100%;
+    display: inline-block; 
+}
+/* Capa contenedora del texto biografico */
+.texto{
+    width: 60%;
+    padding-left: 15px;
+    font-size: 0.9rem;
+    text-align: left;
+    font-variant: none;
+    vertical-align: top;
+    display: inline-block;
+
+}
+/* Texto biográfico al lado de la imagen */
+.bio{
+    display: inline-block;  
+    vertical-align: top;
+}
+/* Pie de página que aparecerá en todas las páginas excepto la de inicio */
+.footer{
+    box-shadow: 2px 2px grey;
+    background-color: whitesmoke;
+    font-family: Roboto-Light;
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px 0px;
+    border-radius: 20px;
+}
+/* Capa contenedora de cada apartado del footer. Datos de contacto, redes sociales y atajos */
+.footer_div{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-left: 25px;
+}
+/* Títulos del footer */
+.footer_tit{
+    background-color: rgba(0, 0, 0, 0.192);
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 0.9rem;
+}
+/* Contenido del footer exceptuando el título */
+.texto_footer{
+    background-color: rgba(0, 0, 0, 0.192);
+    border-radius: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8rem;
+}
+/* capa contenedora del enlace y foto de las redes sociales */
+.contain_logo{
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin:10px;
+}
+/* imagen del logo de las redes sociales */
+.logo{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+}
+/* Capa contenedora de los enlaces de los atajos */
+.contain_enlace{
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    background-color: rgb(66, 65, 65);
+    
+}
+/* Enlace de los atajos */
+.enlace_footer{
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+}
+/* Para que aparezcqqa el delineado cuando paso el ratón por encima de la palabra del enlace */
+.enlace_footer:hover{
+    text-decoration: underline;
+}

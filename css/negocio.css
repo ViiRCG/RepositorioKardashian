@@ -1,0 +1,26 @@
+/* Capa de cada sección */
+.section_neg{
+    width: 98%;
+    margin: 10px auto;
+    margin-left: 25px; 
+    border-radius: 20px;
+}
+/* estilos complementarios para el mail de cada sección, se combina con el estilo titulo2 que se encuentra en el archivo style.css */
+.section_main_neg{
+    width: 95%;
+    margin:10px;
+    text-align: left;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+/* Capa contenedora de cada imagen de las secciones */
+.contain_img_neg{
+    text-align: right;
+    width: 30%;
+    margin: 20px 45px;
+    height: 250px;
+    display: inline-block;
+}
+
+

@@ -1,0 +1,74 @@
+/* capa contenedora de las secciones. Contiene el video resumen y la ubicación */
+.contain_sect{
+    width: 60%;
+    display: inline-block;
+    vertical-align: top; 
+}
+/* Capa contenedora del video resumen */
+.section_ser{
+    background-color: rgba(0, 0, 0, 0.192);
+    width: 100%;
+    text-align: center;
+    height: 450px;
+    padding: 20px;
+    margin: 15px ;
+    border-radius: 20px;
+    
+}
+/* Capa del aside */
+.aside_ser{
+    background-color: rgba(0, 0, 0, 0.192);
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    height: 950px;
+    margin-top: 18px;
+    margin-left: 30px;
+    padding: 10px;
+    
+}
+/* Capa contenedora del video resumen y la ubicación */
+.video{
+    background-color: rgba(0, 0, 0, 0.192);
+    width: 97%;
+    height: 80%;
+    padding: 5px;
+    margin-top: 10px;
+}
+/* Estilos para la tabla */
+.table {    
+    width: 90%;
+    height: 85%;
+    margin:15px ;
+    border: 2px solid rgb(109, 125, 139);
+}
+
+/* Estilos para las celdas de la tabla */
+.table td {
+    border: 1px solid rgb(109, 125, 139);
+    text-align: center;
+}
+/* Estilos aplicados a la primera fila de la tabla (temporada y fecha) */
+.primera{
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    font-variant: small-caps;
+}
+/* Capa contenedora de la lista de plataformas disponibles */
+.lista{
+    margin: 10px;
+    margin-top: 20px;
+    padding: 1px;
+    border-radius: 10px;
+}
+/* Estilos de cada elemento de la lista */
+.item{
+    font-size: 1.1rem;
+    margin: 10px;
+}
+/* Capa contenedora de la parte de plataformas disponibles dentro del aside */
+.extra{
+    margin: 28px 5px;
+}

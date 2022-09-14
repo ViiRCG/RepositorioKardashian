@@ -1,0 +1,43 @@
+/* Sección de la noticia */
+.section_porq{
+    background-color: rgba(0, 0, 0, 0.192);
+    width: 60%;
+    padding: 20px;
+    margin: 20px ;
+    border-radius: 20px;
+    display: inline-block;
+}
+/* capa contenedora de la noticia */
+.noticia{
+    background-color: white;
+    width: 97%;
+}
+/* Capa del aside con los enlaces a las noticias */
+.aside_porq{
+    display: inline-block;
+    vertical-align: top;
+    width: 29%;
+    margin-top: 45px;
+}
+/* Capa contenedora de la lista de enlaces */
+.lista{
+    background-color: rgba(0, 0, 0, 0.192);
+    margin: 10px;
+    margin-top: 20px;
+    padding: 1px;
+    border-radius: 10px;
+}
+/* Cada linea de la lista */
+.item{
+    font-size: 1.1rem;
+    margin: 5px;
+}
+/* Enlaces de la lista */
+.enlace_porq{
+   text-decoration: none;
+   color: black;
+} 
+/* Para que aparezca el delineado cuando paso el ratón por encima del enlace. */
+.enlace_porq:hover{
+    text-decoration: underline;
+}
